@@ -1,0 +1,16 @@
+# Environments and IDE
+venv/
+.idea/
+__pycache__/
+
+# Datasets
+data/
+datasets/
+
+# Model Weights
+*.pt
+*.pth
+*.h5
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
