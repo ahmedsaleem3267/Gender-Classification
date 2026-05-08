@@ -37,7 +37,7 @@ def get_data_loaders(data_dir='../data/raw', batch_size=32, img_size=(128, 128))
 
 # Quick test to ensure it works when you run this file directly
 if __name__ == "__main__":
-    # Get the absolute path of the directory this script is in (src/)
+    # Get the absolute path of the directory this script is in src/
     current_dir = os.path.dirname(os.path.abspath(__file__))
     # Construct the path to data/raw/Training dynamically
     target_data_dir = os.path.join(current_dir, '..', 'data', 'raw', 'Training')
