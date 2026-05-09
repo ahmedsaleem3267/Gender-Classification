@@ -28,6 +28,23 @@ NOTE TO SELF: UNCOMMENT THIS SECTION ONCE THE FINAL GRAPHS ARE PUSHED
 -->
 
 ---
+## Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/ahmedsaleem3267/Gender-Classification.git](https://github.com/ahmedsaleem3267/Gender-Classification.git)
+   cd Gender-Classification
+   
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   
+3. **Download the Dataset**
+   This project uses the Gender Classification Dataset from Kaggle.
+   ```bash
+   pip install kaggle
+   kaggle datasets download -d cashutosh/gender-classification-dataset -p data/raw --unzip
+---
 
 ## Future Enhancements (In Progress)
 To push the model accuracy closer to 99% and ensure robust generalization, the following optimizations are currently being implemented:
